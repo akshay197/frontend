@@ -21,16 +21,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![Nu.nl](images/scr1.png)
+![Nu.nl](images/scrshot.png)
 
-![Nu.nl deel 2](images/scr2.png)
+![Nu.nl deel 2](images/scrshot2.png)
 
 **Breakdown-schets(en):**
 
-![Breakdownschets 1](images/brkscr1.png)
+![Breakdownschets 1](images/brk1.png)
 
 
-![Breakdownschets 1](images/brkscr2.png)
+![Breakdownschets 1](images/brk2.png)
 
 
 
