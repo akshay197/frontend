@@ -21,9 +21,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![Nu.nl](images/scr1.jpg)
+![Nu.nl](images/scr1.png)
 
-![Nu.nl deel 2](images/scr2.jpg)
+![Nu.nl deel 2](images/scr2.png)
 
 **Breakdown-schets(en):**
 
