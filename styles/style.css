@@ -8,34 +8,61 @@
   font-family: 'Roboto';
 }
 
-@font-face{
-	font-family: 'Roboto';
-	src: url('../fonts/Roboto-Regular.ttf');
+body{
+	background-color: var(--color-background);
+	color: var(--color-content);
+	height: 300vh; /* dit moet zo verwijderd worden //TEST PURPOSE ONLY */
+}
+
+body[data-theme="light"]{
+	--color-content: #1f2544;
+	--color-background: #FFFFFF;
+	--color-navigation: #979797;
+}
+
+body[data-theme="dark"]{
+	--color-content: #DDDDDD;
+	--color-background: #151515;
+	--color-navigation: #DDDDDD;
 }
 
 header nav a{
-	color: #979797;
+	color: var(--color-navigation);
+	font-weight: 600;
+	font-size: 13px;
 }
 
 header nav{
 	width: 100vw;
 	display: flex;
 	padding: 0px 10px;
-	justify-content: space-between;
-	box-shadow: 0 10px 10px rgba(182, 182, 182, 0.75);
+	justify-content: space-around;
+	box-shadow: 0 2px 10px rgba(182, 182, 182, 0.75);
 	height: 40px;
 	align-items: center;
+	margin-bottom: 16px;
 }
 
-header img{
+header img, header svg{
 	width: 26px;
 	height: 26px;
+	margin-right: 9px;
+	color: var(--color-content);
+}
+
+header img {
+	width: 32px;
+	height: 32px;
+}
+
+.logoBorder {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
 }
 
 header section{
-	background-color: white;
-	z-index: 10;
-	padding: 0px 10px;
+	z-index: 100;
+	padding: 8px 10px;
 	border-bottom: 1px solid #eee;
 	display: flex;
 	align-items: center;
@@ -44,5 +71,26 @@ header section{
 header section a{
 	font-weight: bold;
 	font-size: 14px;
-	color: #1F2544;
+	color: var(--color-content);
+	display: flex;
+	align-items: center;
+}
+
+header section > svg:first-of-type{
+	margin-left: auto;
+	border-right: 1px solid #eaf0fa;
+	padding-right: 7px;
+	box-sizing: content-box;
+}
+
+header section a svg:last-of-type{
+	width: 15px;
+	height: 15px;
+}
+
+.fixedNavbar{
+	position: fixed;
+	top:0;
+	z-index: 100;
+	background-color: var(--color-background);
 }
