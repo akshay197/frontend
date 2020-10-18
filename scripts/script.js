@@ -5,6 +5,7 @@ var logo = document.querySelector("header img");
 var navbar = document.querySelector('header nav');
 var mainElement = document.querySelector('main');
 var topnavbar = navbar.offsetTop;
+var button = document.querySelector('button');
 
 themeButton.addEventListener("click", function(currentTheme){
 	currentTheme = bodyElement.getAttribute("data-theme");
@@ -28,7 +29,12 @@ window.addEventListener('scroll', function(){
 		navbar.classList.remove('fixedNavbar')
 		mainElement.classList.remove('mainMargin');
 	}
-})
+	if (window.pageYOffset >= 300){
+		button.classList.add('buttonappear');
+	} else {button.classList.remove('buttonappear');
+	}
+	})
+
 
 document.addEventListener('DOMContentLoaded', function(localTheme){
 	localTheme = localStorage.getItem('theme');	
@@ -42,3 +48,12 @@ document.addEventListener('DOMContentLoaded', function(localTheme){
 		logo.classList.remove("logoBorder");
 	}
 })
+
+button.addEventListener('click' , function(){
+window.scroll({
+	top:0
+})
+})
+
+
+
