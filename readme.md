@@ -3,7 +3,7 @@
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
-
+Mijn Codepenlink: https://codepen.io/akshayk47
 
 ## Bronnenlijst
 1. https://www.nu.nl/
@@ -50,29 +50,41 @@ De pagina's:
 Wat ging goed:
 de HTML elementen gingen goed opzich en soms wat moeite met het positioning van de elementen(dus bedenken van of flexbox gebruiken of grid)
 
+Wat kan beter:
+Beter uitvogelen hoe en wat met flex en grid.
+
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+![Eerste indruk page 1](images/week1.1.png)
+
+![Eerste indruk page 2](images/week1.2.png)
+
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+- Ik was even vergeten hoe ik de tekst in de img kreeg, dus dat was een puntje. 
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
-
+Na de meeting bleek dat het inderdaad te maken heeft met position relative en absolute, oftewel de parent en child element.
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Wat gaat goed:
+CSS gaat al wat beter.
+
+Wat kan beter:
+JS moet nog wat aandacht krijgen.
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Wat gaat goed:
+HTML en CSS bijna af begin gemaakt met JS, darkmode leren toepassen voor de Nu.nl site.
 
+Wat kan beter:
+JS functions werken nog niet helemaal.
 
 
 ## Eindgesprek (week 7/8)
@@ -81,7 +93,10 @@ de HTML elementen gingen goed opzich en soms wat moeite met het positioning van 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![Eindresultaat page 1](images/week2.1.png)
+
+![Eindresultaat page 2](images/week2.2.png)
+
 
 
 
