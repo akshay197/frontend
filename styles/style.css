@@ -223,6 +223,7 @@ main header h1 {
 
 .header-title{
 	position: relative;
+	overflow: hidden;
 }
 
 footer{
